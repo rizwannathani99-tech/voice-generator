@@ -1,0 +1,7 @@
+# secrets and runtime data ? never commit
+key.env.txt
+key.env
+.env
+data/
+node_modules/
+*.log

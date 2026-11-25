@@ -1,0 +1,14 @@
+{
+  "name": "voice-studio",
+  "version": "1.0.0",
+  "description": "AI Voice Studio - HeyGen Voice Turbo text to speech, voice design and cloning",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/server.js",
+    "check": "node --disable-warning=ExperimentalWarning server/server.js --check"
+  },
+  "engines": { "node": ">=22.5" },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
